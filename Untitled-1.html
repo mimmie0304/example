@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Rental Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="logo">
+      <img src="polco_logo.png" alt="Polco Logo" width="134.44px", height = "72px">
+
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop by Category</a></li>
+        <li><a href="#">Car Covers</a></li>
+        <li><a href="#">Motorcycle Cover</a></li>
+        <li><a href="#">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Buy cover for your vehicle in Easy steps with us.</h1>
+      <div class="search-bar">
+        <button>Two Wheeler</button>
+        <button class="active">Four Wheeler</button>
+        <select>
+          <option>Select Brand</option>
+        </select>
+        <select>
+          <option>Select Model</option>
+        </select>
+        <button class="search-btn">Search</button>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="top-categories">
+    <h2>Top Categories</h2>
+    <p>Explore top-rated Car Covers, Pool Covers and High quality Truck Curtains from Polco</p>
+
+    <div class="category-card">
+        <img src="motorcycle_cover.png" alt="Motorcycle Cover" style="width: 167.07px; height: 148.83px; top: 1145px; left: 435px;">
+        <h3>Motorcycle Cover</h3>
+    </div>
+
+    <div class="category-card">
+        <img src="bicycle_cover.png" alt="Bicycle Cover" style="width: 167.07px; height: 148.83px; top: 1145px; left: 435px;">
+        <h3>Bicycle Cover</h3>
+    </div>
+
+    <div class="category-card">
+        <img src="auto_cover.png" alt="Auto Rickshaw Cover" style="width: 167.07px; height: 148.83px; top: 1145px; left: 435px;">
+        <h3>Auto Rickshaw Cover</h3>
+    </div>
+
+    <div class="category-card">
+        <img src="car_cover.png" alt="Car Cover" style="width: 167.07px; height: 148.83px; top: 1145px; left: 435px;">
+        <h3>Car Cover</h3>
+    </div>
+
+    style="width: 167.07px; height: 148.83px; top: 1145px; left: 435px;"
+</section>
+
+.top-categories {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .top-categories h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .top-categories {
+    text-align: center;
+    margin-top: 20px;
+    display: grid; /* Use CSS Grid layout */
+    grid-template-columns: repeat(4, 1fr); /* Create 4 columns */
+    gap: 20px; /* Add spacing between cards */
+  }
+  
+  .top-categories h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .category-card {
+    text-align: center;
+  }
+  .top-categories p {
+    margin-bottom: 20px;
+  }
+  .category-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .category-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+  }
+  .category-card img {
+    width: 167.07px;
+    height: 148.83px;
+    margin-bottom: 10px;
+  }
+  
+  .category-card h3 {
+    font-size: 18px;
+  }
+  
+  
